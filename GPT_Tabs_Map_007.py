@@ -17,7 +17,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 # Create app
 app = dash.Dash(__name__ , external_stylesheets=external_stylesheets)
-
+server = app.server
 # Define layout
 app.layout = html.Div([
 
